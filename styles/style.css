@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap');
 
-/* font-family: 'Antonio', sans-serif;
-font-family: 'League Spartan', sans-serif; */
-
 :root {
   --white: #FFFFFF;
   --dark-space: #070724;
@@ -22,7 +19,10 @@ font-family: 'League Spartan', sans-serif; */
   margin: 0 0;
   padding: 0 0;
   background-color: var(--dark-space);
-  color: var(--white)
+  background-size: cover;
+  background-image: url(/assets/background-stars.svg);
+  color: var(--white);
+  font-family: 'League Spartan', sans-serif;
 }
 
 .navbar {
@@ -31,7 +31,7 @@ font-family: 'League Spartan', sans-serif; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px var(--gray) solid;
+  border-bottom: 1px solid rgba(131, 131, 145, 0.4);
 }
 
 .title {
@@ -51,9 +51,106 @@ font-family: 'League Spartan', sans-serif; */
 
 .navbar-link {
   list-style: none;
-  font-family: 'League Spartan', sans-serif;
   font-size: 11px;
   line-height: 25px;
   letter-spacing: 1px;
   font-weight: bold;
+}
+
+.main-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.main-image-container {
+  width: 60%;
+  height: 566px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-data-container {
+  width: 350px;
+}
+
+.planet-name {
+  font-family: 'Antonio', sans-serif;
+  font-size: 80px;
+  line-height: 103px;
+}
+
+.planet-overview {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.planet-source {
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 25px;
+  margin: 20px 0;
+}
+.planet--source-link {
+  color: var(--white);
+  font-weight: bold;
+}
+
+.planet-data-selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 176px;
+  width: 350px;
+}
+
+.planet-data-selector-element {
+  border: 1px var(--gray) solid;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: bold;
+  letter-spacing: 2.57px;
+}
+
+.planet-data-index {
+  opacity: 50%;
+  margin-left: 25px;
+}
+
+.planet-data-selector-option {
+  margin-left: 20px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+.data-element {
+  width: 255px;
+  height: 115px;
+  border: 1px solid var(--gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.data-element-name {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: var(--gray);
+}
+
+.data-element-info {
+  font-family: 'Antonio', sans-serif;
+  font-size: 40px;
+  letter-spacing: -1.5px;
 }
