@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap");
 
 :root {
-  --white: #FFFFFF;
+  --white: #ffffff;
   --dark-space: #070724;
-  --light-space: #38384F;
+  --light-space: #38384f;
   --gray: #838391;
-  --mercury: #419EBB;
-  --venus: #EDA249;
-  --earth: #6D2ED5;
-  --marth: #D14C32;
-  --jupyter: #D83A34;
-  --saturn: #CD5120;
-  --uranus: #1EC1A2;
-  --neptune: #2D68F0;
+  --mercury: #419ebb;
+  --venus: #eda249;
+  --earth: #6d2ed5;
+  --marth: #d14c32;
+  --jupyter: #d83a34;
+  --saturn: #cd5120;
+  --uranus: #1ec1a2;
+  --neptune: #2d68f0;
 }
 
 * {
@@ -22,7 +22,7 @@
   background-size: cover;
   background-image: url(/assets/background-stars.svg);
   color: var(--white);
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 
 .navbar {
@@ -35,7 +35,7 @@
 }
 
 .title {
-  font-family: 'Antonio', sans-serif;
+  font-family: "Antonio", sans-serif;
   font-size: 40px;
   line-height: 52px;
   letter-spacing: -1.5px;
@@ -46,7 +46,6 @@
   width: 665px;
   display: flex;
   justify-content: space-between;
-
 }
 
 .navbar-link {
@@ -55,6 +54,7 @@
   line-height: 25px;
   letter-spacing: 1px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .main-container {
@@ -64,7 +64,7 @@
 
 .main-image-container {
   width: 60%;
-  height: 566px; 
+  height: 566px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +75,7 @@
 }
 
 .planet-name {
-  font-family: 'Antonio', sans-serif;
+  font-family: "Antonio", sans-serif;
   font-size: 80px;
   line-height: 103px;
 }
@@ -150,7 +150,7 @@
 }
 
 .data-element-info {
-  font-family: 'Antonio', sans-serif;
+  font-family: "Antonio", sans-serif;
   font-size: 40px;
   letter-spacing: -1.5px;
 }
