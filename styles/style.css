@@ -8,11 +8,12 @@
   --mercury: #419ebb;
   --venus: #eda249;
   --earth: #6d2ed5;
-  --marth: #d14c32;
+  --mars: #d14c32;
   --jupyter: #d83a34;
   --saturn: #cd5120;
   --uranus: #1ec1a2;
   --neptune: #2d68f0;
+  --active: #419ebb;
 }
 
 * {
@@ -120,10 +121,12 @@
 .planet-data-index {
   opacity: 50%;
   margin-left: 25px;
+  background-color: transparent;
 }
 
 .planet-data-selector-option {
   margin-left: 20px;
+  background-color: transparent;
 }
 
 .data-container {
@@ -153,4 +156,8 @@
   font-family: "Antonio", sans-serif;
   font-size: 40px;
   letter-spacing: -1.5px;
+}
+
+.active {
+  background-color: var(--active);
 }
